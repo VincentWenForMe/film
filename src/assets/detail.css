@@ -1,0 +1,37 @@
+.clearfix {
+  zoom: 1; }
+  .clearfix:before {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+    overflow: hidden; }
+
+.detail {
+  height: 100%; }
+
+.film-short {
+  padding: 20px;
+  font-size: 0.8rem; }
+  .film-short p {
+    margin-bottom: 10px;
+    line-height: 20px; }
+
+.booking-now {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+  z-index: 99;
+  text-align: center; }
+  .booking-now a {
+    display: inline-block;
+    width: 125px;
+    padding: 3px 10px;
+    border-radius: 27px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #fe8233; }
+
+/*# sourceMappingURL=detail.css.map */

@@ -1,0 +1,12 @@
+.clearfix {
+  zoom: 1; }
+  .clearfix:before {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+    overflow: hidden; }
+
+/*# sourceMappingURL=common.css.mapmap */

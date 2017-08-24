@@ -1,0 +1,112 @@
+/*reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, button, input, select, textarea {
+  font-family: "Microsoft YaHei", Tahoma, Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, address, cite, dfn, em, var, code, kbd, pre, samp {
+  font-size: 100%;
+  font-style: normal; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: inherit; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:before {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+    overflow: hidden; }
+
+html, body {
+  height: 100%;
+  background: #e1e1e1; }
+
+.go-top {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  width: 2.5rem;
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 499;
+  bottom: -5rem;
+  right: 1rem;
+  transition: 0.3s linear; }
+  .go-top.active {
+    bottom: 1rem;
+    transition: 0.3s linear; }
+  .go-top i {
+    font-size: 1.2rem; }
+
+.container {
+  padding-top: 2.5rem;
+  min-height: 100%; }
+
+.child-view {
+  width: 100%;
+  transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1); }
+
+.slide-left-enter, .slide-right-leave-active {
+  opacity: 0;
+  transform: translate(1.5rem, 0); }
+
+.slide-left-leave-active, .slide-right-enter {
+  opacity: 0;
+  transform: translate(-1.5rem 0); }
+
+.list-complete-item {
+  transition: all 0.6s;
+  display: inline-block;
+  margin-right: 10px; }
+
+.list-complete-enter, .list-complete-leave-active {
+  opacity: 0;
+  transform: translateY(30px); }
+
+.list-complete-leave-active {
+  position: absolute; }
+
+#app {
+  min-height: 100%; }
+
+/*# sourceMappingURL=reset.css.map */
